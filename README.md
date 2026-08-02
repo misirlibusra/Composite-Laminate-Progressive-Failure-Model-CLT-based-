@@ -57,9 +57,8 @@ E2=10.3 GPa, G12=7.17 GPa, nu12=0.28).
 | Final failure (0 deg layers)                       | ~5864 kN/m | ~0.97% |
 
 Absorbed energy up to final failure: ~640 kJ/m (per unit width).
-
-[![Load-strain curve](https://github.com/misirlibusra/composite-laminate-progressive-failure/raw/main/yuk_sekildegistirme_adim2%20(1).png)](/misirlibusra/composite-laminate-progressive-failure/blob/main/yuk_sekildegistirme_adim2%20(1).png)
-
+![Load-strain curve](yuk_sekildegistirme_adim2.png)
+![CLT vs RC comparison](clt_vs_rc_karsilastirma.png)
 ## CLT vs RC Uniform-Strain Section Model: Algorithmic Correspondence
 
 **Naming note:** the underlying code (`build_fiber_section`, `fibers`) uses
