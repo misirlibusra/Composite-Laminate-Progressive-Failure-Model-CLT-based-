@@ -58,7 +58,7 @@ E2=10.3 GPa, G12=7.17 GPa, nu12=0.28).
 
 Absorbed energy up to final failure: ~640 kJ/m (per unit width).
 ![Load-strain curve](yuk_sekildegistirme_adim2.png)
-![CLT vs RC comparison](clt_vs_rc_karsilastirma.png)
+
 ## CLT vs RC Uniform-Strain Section Model: Algorithmic Correspondence
 
 **Naming note:** the underlying code (`build_fiber_section`, `fibers`) uses
@@ -98,8 +98,7 @@ stiffness drop) but keeps carrying load through the surviving plies. The RC
 section instead shows a sudden, large capacity loss once the fibers cross
 the concrete's ultimate crushing strain (eps_cu) — a brittle, near-total
 loss of section capacity rather than a gradual stiffness reduction.
-
-![CLT vs RC comparison](https://github.com/misirlibusra/composite-laminate-progressive-failure/raw/main/clt_vs_rc_karsilastirma.png)
+![CLT vs RC comparison](clt_vs_rc_karsilastirma.png)
 
 ## Known Limitations
 
