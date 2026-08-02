@@ -1,4 +1,4 @@
-# Composite-Laminate-Progressive-Failure-Model-CLT-based-# 
+# Composite-Laminate-Progressive-Failure-Model-CLT-based
 
 Python implementation of Classical Lamination Theory (CLT) combined with a
 ply-discount progressive damage model, using the Tsai-Wu failure criterion.
